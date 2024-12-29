@@ -1,0 +1,12 @@
+model: 
+api_key: HUGGINGFACE_API_KEY
+
+tools:
+  - llm1:
+      tool1_mod: tool1_cls
+      tool2_mod: tool2_cls
+      ...: ...
+  - llm2:
+      tool1_mod: tool1_cls
+      tool2_mod: tool2_cls
+      ...: ...
